@@ -42,7 +42,7 @@ function Footer() {
 ' width={50} height={50} className="w-32 h-20 "/>
                             </Link>
                             <button className="bg-black text-white font-medium py-2 px-3 rounded-lg">
-           🟡 Status: GGAnime API (Main Server) down
+           🟡 Status: Running
           </button>
                             <p className="lg:text-[0.8rem] text-[0.7rem] text-[#ffffffb2] lg:w-[480px]">
                                 This site does not store any files on our server, we are linked
@@ -72,17 +72,17 @@ function Footer() {
                             <div>
                                 <ul className="font-semibold flex flex-col gap-2 lg:text-[0.85rem] text-[0.7rem] text-[#ffffffb2]">
     <li>
-                                        <Link href="https://ko-fi.com/1Anime" target='_blank' className="hover:text-white !font-semibold !text-[0.8rem]">Donate</Link>
+                                        <Link href="/" target='_blank' className="hover:text-white !font-semibold !text-[0.8rem]">SkyAnime</Link>
                                       <li>
                                     <li>
-                                        <Link href="/dmca" className="hover:text-white"> DMCA & Privacy Policy</Link>
+                                        <Link href="/d" className="hover:text-white"> DMCA & Privacy Policy</Link>
                                     </li>
                                     </li>
                                     <li>
-                                        <Link href="https://1anime.co/proxy" className="hover:text-white"> Proxy</Link>
+                                        <Link href="/" className="hover:text-white"> Proxy</Link>
                                     </li>
                                     <li>
-                                        <Link href="https://linktr.ee/1anime" className="hover:text-white"> Contact & Socials</Link>
+                                        <Link href="/" className="hover:text-white"> Contact & Socials</Link>
                                     </li>
                                     </li>
                                 </ul>
@@ -92,7 +92,7 @@ function Footer() {
                 </div>
                 <div className='bg-tersier border-t border-white/5 mt-2'></div>
                 <div className="mx-auto w-full lg:max-w-[83%] lg:flex lg:items-center lg:justify-between lg:text-[0.8rem] text-[0.7rem] text-[#ffffffb2] py-3">
-                    <span className="sm:text-center ms-5 lg:ms-0">© {year} <Link href="/" className="hover:text-white">1Anime</Link> | <span className="font-bold" >Aniplay + 1Anime Development Team</span>
+                    <span className="sm:text-center ms-5 lg:ms-0">© {year} <Link href="/" className="hover:text-white">SkyAnime</Link> | <span className="font-bold" >Aniplay + 1Anime Development Team</span>
                     </span></div></footer>
         </div>
     )
