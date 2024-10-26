@@ -125,7 +125,8 @@ function Navbarcomponent({ home = false }) {
                 <div className={styles.logoContainer}>
                     <Link href="/" className={styles.logoLink}>
                         {/* ANIPLAY */}
-                        <Image src='https://1anime.co/logo.svg' width={50} height={50} className="w-32 h-20 "/>
+                        <Image src='https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png
+' width={50} height={50} className="w-32 h-20 "/>
                     </Link>
                 </div>
                 <div className={styles.navItemsContainer}>
@@ -163,7 +164,7 @@ function Navbarcomponent({ home = false }) {
                     className="w-[26px] h-[26px] outline-none"
                 >
                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png"
                         viewBox="0 0 24 24"
                     >
                         <path
@@ -324,7 +325,7 @@ function Navbarcomponent({ home = false }) {
                             color="secondary"
                             name={data?.user?.name}
                             size="sm"
-                            src={data?.user?.image?.large || data?.user?.image?.medium || "https://media.discordapp.net/attachments/1001735269466259461/1231068879409778789/1AnimeSmedia_1.png?ex=662479bd&is=6623283d&hm=6fa39f541278a51437ce8723a7b5410176557931cac5e83ffcff438a474af757&=&format=webp&quality=lossless"}
+                            src={data?.user?.image?.large || data?.user?.image?.medium || "https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png"}
                         />
                     </DropdownTrigger>
                     {isLoggedIn ? (
@@ -337,13 +338,13 @@ function Navbarcomponent({ home = false }) {
                             <Link href={`/user/profile`} className='w-full h-full block '>Profile</Link>
                                 </DropdownItem>
                                 <DropdownItem key="donate" startContent={<BanknotesIcon className={iconClasses} />}>
-                    <Link href={`https://ko-fi.com/1Anime`} className='w-full h-full block '>Support us/Donate</Link>
+                    <Link href={`/`} className='w-full h-full block '>Support us/Donate</Link>
                 </DropdownItem>
                 <DropdownItem key="AIChat" startContent={<ChatBubbleOvalLeftEllipsisIcon className={iconClasses} />}>
                     <Link href={`#`} className='w-full h-full block '>AI Chats (Coming Soon)</Link>
                 </DropdownItem>
                 <DropdownItem key="chat" startContent={<ChatBubbleBottomCenterIcon className={iconClasses} />}>
-                    <Link href={`https://dsc.gg/1anime`} className='w-full h-full block '>Community/Discord</Link>
+                    <Link href={`https://discord.gg/ptu7UeFth8`} className='w-full h-full block '>Community/Discord</Link>
                 </DropdownItem>
                 <DropdownItem key="schedule" startContent={<ClockIcon className={iconClasses} />}>
                     <Link href={`/schedule`} className='w-full h-full block '>Schedule</Link>
