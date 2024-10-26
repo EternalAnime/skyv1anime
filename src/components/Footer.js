@@ -38,7 +38,8 @@ function Footer() {
                                 {/* <p className={`aniplay self-center text-3xl font-medium whitespace-nowrap dark:text-white`}>
                                     ANIPLAY
                                     </p> */}
-                                    <Image src='https://1anime.co/logo.svg' width={50} height={50} className="w-32 h-20 "/>
+                                    <Image src='https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png
+' width={50} height={50} className="w-32 h-20 "/>
                             </Link>
                             <button className="bg-black text-white font-medium py-2 px-3 rounded-lg">
            🟡 Status: GGAnime API (Main Server) down
