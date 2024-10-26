@@ -248,7 +248,7 @@ export default function Card({
   return (
     <>
       <Head>
-        <title>Streamsora - search</title>
+        <title>SkyAnime - search</title>
         <meta name="title" content="Search" />
         <meta name="description" content="Search your favourites Anime/Manga" />
         <link rel="icon" href="/streamsora.png" />
