@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   aniplay:
-    container_name: Aniplay
+    container_name: SkyAnime
     restart: always
     ports:
       - 3000:3000
